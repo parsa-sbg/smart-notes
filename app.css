@@ -1,2 +1,85 @@
-@import './node_modules/reset-css/reset.css';
 @import './node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import './node_modules/reset-css/reset.css';
+
+
+
+:root{
+    font-size: 10px;
+
+    --main-color: #017373;
+    --bg-color: #080808;
+    --text-color: #EFECE6;
+    --main-color-light: #018989;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* start header */
+
+.header{
+    border-bottom: 2px solid var(--main-color);
+    padding: 1.5rem 0;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.logo__icon{
+
+}
+.logo__text{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.menu-item{
+
+}
+.menu-item-link{
+    transition: all 200ms ease;
+}
+.menu-item-link:hover{
+    color: var(--main-color-light);
+}
+.menu-item--active a{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.header__btn{
+    width: 16rem;
+    height: 5rem;
+
+    border-radius: 1rem;
+    border: none;
+    background-image: linear-gradient(to top right, var(--main-color), #fff 150%);
+    
+}
+.header__btn-text{
+
+}
+.header__btn-icon{
+
+}
+
+/* end header */
