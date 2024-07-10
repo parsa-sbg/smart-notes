@@ -9,16 +9,54 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
+@media only screen and (max-width: 768px) {
+    .menu{
+        position: absolute;
+        top: -63rem;
+        bottom: 0;
+        gap: 2rem;
+
+        margin: 1.5rem 0;
+
+        height: 100vh;
+        width: 100%;
+
+        flex-direction: column;
+        align-items: start;
+
+        padding: 2rem;
+
+        background-image: linear-gradient(to top right ,var(--bg-color) 70% , var(--main-color) 150%);
+        z-index: -1;
+        transition: all 500ms ease;
+    }
+    .menu-item{
+        border-bottom: 2px solid var(--text-color);
+        padding-bottom: 2rem;
+        width: 15rem;
+    }
+    .menu-item:last-child{
+        border: none;
+    }
+    .menu-socials{
+        display: flex;
+    }
+    .mobile-menu-btn{
+        display: flex;
+    }
+    .menu--open{
+        top: 100% !important;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
+@media only screen and (max-width: 992px) {
+    .header__btn{
+        display: none;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     
 }
