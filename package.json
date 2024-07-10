@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "reset-css": "^5.0.2"
+    "reset-css": "^5.0.2",
+    "swiper": "^6.8.4"
   }
 }

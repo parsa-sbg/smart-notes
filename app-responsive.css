@@ -48,7 +48,8 @@
 
         background-image: linear-gradient(to top right ,var(--bg-color) 70% , var(--main-color) 150%);
         z-index: -1;
-        opacity: .7;
+        opacity: .9;
+        border: 2px solid var(--main-color);
 
     }
     .menu-item{
@@ -91,3 +92,4 @@
         font-size: 3rem;
     }
 }
+
