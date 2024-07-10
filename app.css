@@ -28,6 +28,10 @@ a{
 .header{
     border-bottom: 2px solid var(--main-color);
     padding: 1.5rem 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 100000;
 }
 .header-wrapper{
     display: flex;
@@ -131,6 +135,7 @@ a{
     height: .35rem;
     background-color: #fff;
     border-radius: 4rem;
+    transition: all 500ms ease;
 }
 
 .mobile-menu-btn__line::after{
@@ -141,6 +146,18 @@ a{
     height: .35rem;
     background-color: #fff;
     border-radius: 4rem;
+    transition: all 500ms ease;
+}
+.mobile-menu-btn__line--open.mobile-menu-btn__line{
+    background-color: transparent;
+}
+
+.mobile-menu-btn__line--open.mobile-menu-btn__line::after{
+    transform: rotate(45deg) translate(.5rem, .5rem);
+}
+
+.mobile-menu-btn__line--open.mobile-menu-btn__line::before{
+    transform: rotate(-45deg) translate(.5rem, -0.5rem);
 }
 
 /* end header */

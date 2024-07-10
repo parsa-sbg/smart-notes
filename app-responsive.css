@@ -45,7 +45,7 @@
         display: flex;
     }
     .menu--open{
-        top: 100% !important;
+        top: 115% !important;
     }
 }
 
