@@ -10,15 +10,15 @@
     --bg-color: #080808;
     --text-color: #EFECE6;
     --main-color-light: #018989;
-    --text-color-light: #BABABA;
+    --text-color-light: #737373;
 }
-
 body {
     font-size: 1.6rem;
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 8.143rem;
+    box-sizing: border-box;
 }
 
 a {
@@ -33,7 +33,48 @@ a {
     background-image: linear-gradient(to top right, var(--main-color), #fff 150%);
 }
 section{
-    margin-top: 6rem;
+    margin-top: 8rem;
+}
+
+.note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8rem;
+    width: fit-content;
+    margin: 8rem auto 0;
+
+    padding-top: 3rem;
+
+    position: relative;
+}
+.note::before{
+    content: url('./images/note.svg');
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.note__text{
+    font-size: 2.5rem;
+    max-width: 48rem;
+    text-align: center;
+}
+.note__person{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+.note__person-name{
+
+}
+.note__person-role{
+    color: var(--text-color-light);
 }
 /* helper classes */
 
@@ -251,7 +292,6 @@ section{
 
 .swiper{
     position: relative;
-    padding-bottom: 20rem !important;
     width: 100%;
 }
 
