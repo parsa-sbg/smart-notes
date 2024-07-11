@@ -76,6 +76,28 @@ section{
 .note__person-role{
     color: var(--text-color-light);
 }
+
+
+.seaction-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 40rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 3.5rem;
+
+}
+.section-title span{
+    color: var(--main-color);
+}
+.section-text{
+    color: var(--text-color-light);
+    margin-top: 1rem;
+}
 /* helper classes */
 
 /* start header */
