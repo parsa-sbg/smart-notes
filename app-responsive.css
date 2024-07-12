@@ -87,6 +87,13 @@
     .feature__title{
         margin-top: 1rem;
     }
+    .pricing__plan{
+        max-width: 25.5rem;
+        padding: 1.5rem;
+    }
+    .pricing__link{
+        padding: 1rem 3rem;
+    }
 }
 
 

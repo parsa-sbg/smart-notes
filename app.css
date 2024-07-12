@@ -389,7 +389,7 @@ section{
 }
 .phone-image-wrapper{
     position: relative;
-    background-color: #017373;
+    background-color: var(--main-color);
     overflow: hidden;
     border-radius: 1rem;
 
@@ -415,3 +415,113 @@ section{
 }
 
 /* end middle section */
+
+/* start pricing */
+
+.pricing__heaeder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+.pricing__monthly{
+
+}
+.pricing__swich{
+    height: 3rem;
+    width: 6rem !important;
+}
+.pricing__swich:checked {
+    background-color: var(--main-color) !important;
+}
+
+.pricing__yearly{
+
+}
+.pricing__off-info{
+    padding: .6rem 2rem;
+    border-radius: 5rem;
+    color: #080808;
+}
+
+
+/* start pricing plans */
+
+.pricing__plan{
+    border: 2px solid var(--main-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 35rem;
+    margin: .75rem auto;
+}
+.plan__name-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--main-color-light);
+}
+.plan__icon{
+
+}
+.paln__name{
+
+}
+.plan__price-wrapper{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+.plan__price-number{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.plan__price-pertime{
+    height: 4rem;
+    display: flex;
+    align-items: end;
+}
+.pricing__options{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+.pricing__options-item{
+    font-size: 1.4rem;
+}
+.pricing__link{
+    border: 2px solid var(--main-color);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 1rem 5rem;
+    margin: 0 auto .5rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    color: var(--bg-color);
+    transition: all 200ms ease;
+}
+.pricing__link:hover{
+    background-color: var(--bg-color);
+    color: #EFECE6;
+}
+.pricing__credit-cart{
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--text-color-light);
+}
+
+.white-bg{
+    background-color: #fff;
+    color: var(--bg-color) !important;
+}
+
+/* end pricing plans */
+
+
+
+/* end pricing */
