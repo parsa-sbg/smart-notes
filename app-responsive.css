@@ -13,6 +13,9 @@
     .home__title {
         font-size: 4.5rem;
     }
+    .feature{
+        min-height: 18rem;
+    }
 }
 @media only screen and (max-width: 768px) {
     .menu{
@@ -77,15 +80,26 @@
     .home__title {
         font-size: 5rem;
     }
+
+    .feature{
+        min-height: 21.1rem;
+    }
+    .feature__title{
+        margin-top: 1rem;
+    }
 }
 
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
     .home__title {
         font-size: 4rem;
     }
+    
+    .feature{
+        min-height: 15.3rem;
+    }
 }
+
 
 @media only screen and (max-width: 300px) {
     .home__title {

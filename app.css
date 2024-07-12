@@ -86,6 +86,7 @@ section{
     max-width: 40rem;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 7rem;
 }
 .section-title{
     font-size: 3.5rem;
@@ -308,6 +309,8 @@ section{
 }
 /* end home */
 
+/* start logos slider */
+
 .logos-slider{
     overflow-x: hidden;
 }
@@ -347,3 +350,34 @@ section{
     display: flex;
     justify-content: center;
 }
+
+/* end logos slider */
+
+/* start feature */
+
+.features{
+
+}
+.feature{
+    border: 2px solid var(--main-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: .75rem 0;
+}
+.feature__icon{
+
+}
+.feature__title{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.feature__desc{
+    color: var(--text-color-light);
+    font-size: 1.4rem;
+}
+
+.more-height{
+    min-height: 23.5rem;
+}
+
+/* end feature */
