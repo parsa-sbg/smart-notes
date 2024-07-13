@@ -3,6 +3,7 @@ const menu = document.querySelector('.menu')
 const yearlyPricingSwitch = document.querySelector('.pricing__swich')
 const planPricePertimeElem = document.querySelectorAll('.plan__price-pertime')
 const planPriceNumberElem = document.querySelectorAll('.plan__price-number')
+const accordionBtns = document.querySelectorAll('.accordion__btn')
 
 
 //////////////////////// funcs ////////////////////////////////////////
@@ -83,4 +84,17 @@ yearlyPricingSwitch.addEventListener('change', event => {
   }else{
     changePricePerTime(false)
   }
+})
+
+// accordion handling
+
+accordionBtns.forEach(btn => {
+  btn.addEventListener('click', event => {
+
+    event.target.nextElementSibling.className.includes('accordion__panel--open')
+    ||
+    document.querySelector('.accordion__panel--open')?.classList.remove('accordion__panel--open')
+    
+    event.target.nextElementSibling.classList.toggle('accordion__panel--open')
+  })
 })

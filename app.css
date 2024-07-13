@@ -522,6 +522,74 @@ section{
 
 /* end pricing plans */
 
-
-
 /* end pricing */
+
+
+
+/* start questions */
+
+.questions{
+
+}
+.questions__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    gap: 1rem;
+}
+.accordion__btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem 2rem;
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+    border-radius: 1rem;
+}
+.accordion__panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    /* padding: 2rem ; */
+    border-radius: 1rem;
+    /* border: 2px solid var(--main-color-light); */
+    gap: 1rem;
+
+    transition: all 500ms ease;
+    max-height: 0;
+    overflow: hidden;
+}
+.accordion__panel--open{
+    padding: 2rem ;
+    border: 2px solid var(--main-color-light);
+    max-height: 35rem;
+}
+.accordion__panel-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.accordion__panel-title{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.accordion__panel-content{
+
+}
+
+/* end questions */
