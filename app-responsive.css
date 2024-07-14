@@ -94,6 +94,14 @@
     .pricing__link{
         padding: 1rem 3rem;
     }
+    .footer__contact{
+        margin-bottom: 4rem;
+    }
+    .footer__bottom-wrapper{
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 3rem;
+    }
 }
 
 
