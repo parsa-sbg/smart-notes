@@ -17,5 +17,5 @@ a fully responsive landing page
 
 <hr/>
 
-<img src="./images/readmeImages/Screenshot 2024-08-06 173538.png" width="46%" />
-<img src="./images/readmeImages/Screenshot 2024-08-06 173602.png" width="46%" />
+<img src="./images/readmeImages/Screenshot 2024-08-06 173538.png" width="30%" />
+<img src="./images/readmeImages/Screenshot 2024-08-06 173602.png" width="30%" />
